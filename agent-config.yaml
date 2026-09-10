@@ -1,0 +1,52 @@
+schema_version: 2
+
+# Precedencia: global < actor < proyecto < agente.
+project:
+  id: {{PROJECT_ID}}
+  name: {{PROJECT_NAME}}
+  actor: {{ACTOR}}
+
+uses_skills:
+  - global/safe-input/0.2.0
+  # Agregar la skill del actor solo si existe en el catalogo, por ejemplo:
+  # - actors/{{ACTOR}}/<skill>/<version>
+
+overrides:
+  model_by_role: {}
+
+agents:
+  - id: setup
+    instructions: agents/setup/AGENTS.md
+    context: agents/setup/CONTEXT.md
+    config: agents/setup/agent-config.yaml
+  - id: generador
+    instructions: agents/generador/AGENTS.md
+    context: agents/generador/CONTEXT.md
+    config: agents/generador/agent-config.yaml
+  - id: revisor
+    instructions: agents/revisor/AGENTS.md
+    context: agents/revisor/CONTEXT.md
+    config: agents/revisor/agent-config.yaml
+
+directories:
+  input: input
+  work: work
+  output: output
+  specs: specs
+  local_skills: skills
+  agents: agents
+
+input:
+  type: external-junction
+  path: input
+  link_script: scripts/Link-Input.ps1
+  unlink_script: scripts/Unlink-Input.ps1
+  create_automatically: false
+  versioned: false
+
+work:
+  versioned: false
+
+output:
+  versioned: true
+  provenance_required: true
