@@ -1,5 +1,8 @@
 # Skills locales
 
-Ambito para skills exclusivas de este proyecto. No duplicar skills globales o del
-actor declaradas en `uses_skills`. Si se crea una skill local, dejar aqui su
-carpeta `<nombre>/SKILL.md` y referenciarla como `project/<nombre>`.
+Todas las skills requeridas se incluyen en este proyecto, en
+`skills/<nombre>/SKILL.md`, y se declaran como `project/<nombre>` en uses_skills.
+El comando `/init` verifica y lee estos archivos directamente; no requiere
+instalaciones en el perfil ni ubicaciones externas.
+
+- `project/safe-input`: tratamiento de entradas externas.

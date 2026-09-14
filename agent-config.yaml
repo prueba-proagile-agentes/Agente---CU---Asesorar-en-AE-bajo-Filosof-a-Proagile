@@ -7,9 +7,8 @@ project:
   actor: {{ACTOR}}
 
 uses_skills:
-  - global/safe-input/0.2.0
-  # Agregar la skill del actor solo si existe en el catalogo, por ejemplo:
-  # - actors/{{ACTOR}}/<skill>/<version>
+  - project/safe-input
+  # Cada referencia project/<nombre> resuelve skills/<nombre>/SKILL.md local.
 
 overrides:
   model_by_role: {}

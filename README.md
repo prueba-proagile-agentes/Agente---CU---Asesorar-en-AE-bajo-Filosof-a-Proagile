@@ -1,13 +1,30 @@
 # {{PROJECT_NAME}}
 
 Proyecto del actor `{{ACTOR}}`, id `{{PROJECT_ID}}`. Repositorio Git
-independiente registrado en governance.
+independiente con instrucciones y skills incluidas localmente.
 
-1. Si es la primera vez, usa el agente `agents/setup` para inicializar el
-   proyecto (tokens, input, skills y alta en governance si corresponde).
-2. Lee `AGENTS.md`, `agent-config.yaml` y `specs/index.md`.
-3. Crea el junction con `scripts/Link-Input.ps1 -TargetPath <ruta-local>`.
-4. Selecciona `agents/generador` o `agents/revisor`.
-5. Manten los temporales en `work/` y los finales en `output/`.
+## Comenzar con OpenCode
+
+1. Abri esta carpeta como proyecto en OpenCode y selecciona un modelo disponible.
+2. Escribi `/init`. La primera vez guia la configuracion solicitando un dato por
+   vez, muestra un dry-run antes de aplicar y verifica input y skills.
+3. Si ya esta configurado, `/init` verifica el entorno y carga el rol generador
+   para comenzar una consulta. No vuelve a pedir datos completos.
+4. Pedi una tarea concreta e indica las fuentes necesarias. Solicita el rol
+   `agents/revisor` para revisar los entregables.
+5. Mantene los temporales en `work/` y los finales revisables en `output/`.
+
+El comando esta definido en `.opencode/commands/init.md` y reemplaza el `/init`
+generico dentro de este proyecto. Reinicia OpenCode despues de incorporar o
+actualizar el comando. No regenera AGENTS.md. Las skills se resuelven dentro de
+`skills/` del proyecto, sin solicitar rutas externas ni sincronizar el perfil.
+
+Los roles de `agents/` son instrucciones cargadas por el comando; no requieren
+estar registrados como agentes seleccionables de OpenCode. `/init` usa el agente
+y modelo actuales: ejecutalo en un modo con edicion habilitada para configurar.
+La configuracion sigue siendo guiada por el modelo, no un instalador automatico.
+
+Fuentes del proyecto: `AGENTS.md`, `agent-config.yaml` y `specs/index.md`.
+El enlace local de inputs se crea con `scripts/Link-Input.ps1 -TargetPath <ruta-local>`.
 
 Precedencia: `global < actor < proyecto < agente`.
