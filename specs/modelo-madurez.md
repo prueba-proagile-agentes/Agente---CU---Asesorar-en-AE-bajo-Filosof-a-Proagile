@@ -15,6 +15,8 @@ Modelo exclusivo y patentado de Proagile ®. **6 niveles, 31 ítems, criterios d
 | Conocimientos & Buenas Prácticas | Cuestionarios por rol (mínimo: Arquitectura + Admin Repo + 1 referente de área usuaria); informe con brechas y recomendaciones |
 | Diagrama de Despliegue EA | 1 diagrama con componentes y conexiones clave (EA / Pro Cloud Server / WebEA), BD y ambientes identificados |
 
+La obtención y tratamiento de evidencias ML0 se rige por `metodologia-assessment-sparxea.md`; las preguntas canónicas están en `cuestionario-assessment-sparxea.md` y el contrato de salida en `informe-assessment-sparxea.md`. Estas specs operativas no reemplazan los umbrales anteriores.
+
 ## ML1 — Pilares Esenciales (6 ítems) · Cimientos listos
 
 | Ítem | Criterio / umbral mínimo |

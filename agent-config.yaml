@@ -8,6 +8,8 @@ project:
 
 uses_skills:
   - project/safe-input
+  - project/ejecutar-assessment-sparxea
+  - project/generar-informe-assessment-sparxea
   # Cada referencia project/<nombre> resuelve skills/<nombre>/SKILL.md local.
 
 overrides:
