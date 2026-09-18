@@ -2,9 +2,9 @@ schema_version: 2
 
 # Precedencia: global < actor < proyecto < agente.
 project:
-  id: {{PROJECT_ID}}
-  name: {{PROJECT_NAME}}
-  actor: {{ACTOR}}
+  id: Agente-CU-Asesorar-AE-Filosofia-Proagile
+  name: Asesorar en AE bajo Filosofía Proagile
+  actor: consultoria
 
 uses_skills:
   - project/safe-input

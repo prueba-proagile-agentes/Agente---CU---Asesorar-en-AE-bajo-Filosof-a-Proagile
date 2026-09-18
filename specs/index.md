@@ -16,7 +16,6 @@ Templates comerciales aprobados (familia "Servicio Integral de Acompañamiento":
 ## Pendientes de la migración
 
 - Correr `agents/setup` (tokens `{{...}}` sin reemplazar; falta `work/.setup-done`).
-- Volcar los 4 roles del asesor (Evangelizador, Facilitador de Recursos, Consultor Estratégico, Coach Comercial-Técnico) en `AGENTS.md` y `agents/generador/CONTEXT.md` — previsto junto con el setup.
 - Decidir si la metodología de PoC se convierte en skill local (`skills/generar-propuesta-poc/`).
 - Poblar la carpeta de Drive enlazada como `input/` con el material de referencia listado arriba.
 - Contrastar `modelo-madurez.md` contra la planilla de Criterios de Aceptación.

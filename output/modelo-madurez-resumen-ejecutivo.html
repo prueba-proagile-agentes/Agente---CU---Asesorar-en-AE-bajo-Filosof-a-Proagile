@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proagile | Modelo de Madurez SparxEA — Resumen ejecutivo</title>
+  <style>
+    @page { size: A4 portrait; margin: 0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #e7edf3; color: #192c40; font-family: "Segoe UI", Arial, sans-serif; }
+    .page { width: 210mm; min-height: 297mm; margin: 24px auto; padding: 12mm 13mm 10mm; background: white; }
+    .brand { display: flex; justify-content: space-between; font-size: 10px; letter-spacing: 1.7px; font-weight: 700; text-transform: uppercase; color: #427082; }
+    h1 { font-size: 30px; line-height: 1.12; margin: 15px 0 8px; letter-spacing: -.8px; }
+    .intro { font-size: 12px; line-height: 1.5; margin: 0; color: #506276; max-width: 640px; }
+    .summary { display: flex; justify-content: space-between; gap: 14px; margin: 16px 0; padding: 12px 16px; border-radius: 9px; background: #122b42; color: white; }
+    .summary strong { display: block; font-size: 19px; }
+    .summary span { display: block; font-size: 10px; margin-top: 3px; color: #cadde9; }
+    .levels { display: grid; gap: 8px; }
+    .level { display: grid; grid-template-columns: 65px 1fr; border: 1px solid #dce5eb; border-left: 4px solid var(--accent); border-radius: 9px; overflow: hidden; break-inside: avoid; }
+    .number { display: flex; flex-direction: column; align-items: center; justify-content: center; background: #f2f6f9; color: var(--accent); padding: 10px 4px; }
+    .number strong { font-size: 23px; letter-spacing: -1px; }
+    .number span { font-size: 9px; margin-top: 3px; color: #54677a; }
+    .content { padding: 9px 13px 10px; }
+    h2 { margin: 0 0 4px; font-size: 14px; line-height: 1.3; color: #142e43; }
+    .goal { font-size: 10.5px; line-height: 1.4; margin: 0 0 4px; color: #344f65; }
+    .scope { font-size: 10px; line-height: 1.45; margin: 0 0 5px; color: #536779; }
+    .result { font-size: 10px; line-height: 1.4; margin: 0; color: #193d53; }
+    .highlight { border-color: #77c6bb; border-left-color: var(--accent); background: #f0faf7; }
+    .highlight .number { background: #dff2ed; }
+    .tag { display: inline-block; margin-left: 7px; font-size: 8px; vertical-align: middle; padding: 3px 6px; border-radius: 4px; background: #147c69; color: white; letter-spacing: .4px; }
+    .principles { margin-top: 13px; padding: 11px 13px; background: #f0f5f8; border-radius: 8px; }
+    .principles h3 { margin: 0 0 5px; font-size: 11px; }
+    .principles p { margin: 0; font-size: 10px; line-height: 1.5; }
+    footer { margin-top: 11px; padding-top: 8px; border-top: 1px solid #dae3e9; font-size: 8px; line-height: 1.45; color: #647688; }
+    footer p { margin: 0 0 3px; }
+    @media print {
+      body { background: white; }
+      .page { margin: 0; min-height: 0; }
+      * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+    @media screen and (max-width: 800px) {
+      .page { width: 100%; min-height: 0; margin: 0; padding: 24px 18px; }
+      h1 { font-size: 27px; }
+      .brand { font-size: 8px; }
+      .summary { gap: 10px; padding: 12px; }
+      .summary strong { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div class="brand"><span>Proagile · Arquitectura Empresarial</span><span>Resumen ejecutivo</span></div>
+      <h1>Modelo de Madurez<br>para Implementaciones SparxEA</h1>
+      <p class="intro">Una evolución gradual desde el diagnóstico hasta una práctica de Arquitectura Empresarial gobernada, colaborativa y conectada con las decisiones del negocio.</p>
+      <div class="summary">
+        <div><strong>6 niveles</strong><span>Del punto de partida a la mejora continua</span></div>
+        <div><strong>31 ítems</strong><span>Con criterios de aceptación verificables</span></div>
+        <div><strong>A tu ritmo</strong><span>Iniciar · Detenerse · Retomar</span></div>
+      </div>
+    </header>
+    <section class="levels" aria-label="Los seis niveles de madurez">
+      <article class="level" style="--accent: #60768a">
+        <div class="number"><strong>ML0</strong><span>5 ítems</span></div>
+        <div class="content">
+          <h2>Assessment · Entender el punto de partida</h2>
+          <p class="goal">Alinear necesidades, equipo y entorno antes de implementar.</p>
+          <p class="scope">Stakeholders · Procesos de trabajo · Organización del equipo · Conocimientos y buenas prácticas · Despliegue EA.</p>
+          <p class="result"><strong>Resultado:</strong> diagnóstico de situación, brechas y prioridades para orientar la implementación.</p>
+        </div>
+      </article>
+      <article class="level" style="--accent: #367ca7">
+        <div class="number"><strong>ML1</strong><span>6 ítems</span></div>
+        <div class="content">
+          <h2>Pilares esenciales · Construir los cimientos</h2>
+          <p class="goal">Organizar el repositorio y producir las primeras salidas útiles.</p>
+          <p class="scope">Motivadores · Estructura EA · Modelos y elementos · Mapa de trazabilidad · Reportes y salidas · Seguridad EA.</p>
+          <p class="result"><strong>Resultado:</strong> repositorio estructurado, con contenido inicial, trazabilidad y accesos por rol.</p>
+        </div>
+      </article>
+      <article class="level highlight" style="--accent: #147c69">
+        <div class="number"><strong>ML2</strong><span>8 ítems</span></div>
+        <div class="content">
+          <h2>Marco Base MDG · Hacer sostenible la práctica <span class="tag">NIVEL CLAVE</span></h2>
+          <p class="goal">Adaptar Enterprise Architect a la organización y establecer su gobierno.</p>
+          <p class="scope">Métricas · Plantillas · Estereotipos y perfiles · Toolboxes · Reportes y scripts · Patrones · Gobierno EA · Marco Base FWK MDG.</p>
+          <p class="result"><strong>Resultado:</strong> Marco Base personalizado, instalable y transferido al cliente, con reglas y activos reutilizables.</p>
+        </div>
+      </article>
+      <article class="level" style="--accent: #168a99">
+        <div class="number"><strong>ML3</strong><span>5 ítems</span></div>
+        <div class="content">
+          <h2>Colaboración · Ampliar la participación</h2>
+          <p class="goal">Extender el valor del repositorio a la organización mediante Prolaborate.</p>
+          <p class="scope">Indicadores en Prolaborate · Vistas y dashboards · Ambientes · Trabajo colaborativo · Marco de trabajo institucionalizado.</p>
+          <p class="result"><strong>Resultado:</strong> vistas ejecutivas y operativas, participación de stakeholders y flujos de revisión y aprobación.</p>
+        </div>
+      </article>
+      <article class="level" style="--accent: #6764a7">
+        <div class="number"><strong>ML4</strong><span>3 ítems</span></div>
+        <div class="content">
+          <h2>Integraciones · Conectar el ecosistema</h2>
+          <p class="goal">Vincular la AE con herramientas externas y consolidar su operación.</p>
+          <p class="scope">Tableros consolidados en Prolaborate · Integración con herramienta externa · Procedimiento de Gestión SparxEA.</p>
+          <p class="result"><strong>Resultado:</strong> información conectada, integración bidireccional y gestión operativa documentada y probada.</p>
+        </div>
+      </article>
+      <article class="level" style="--accent: #b18125">
+        <div class="number"><strong>ML5</strong><span>4 ítems</span></div>
+        <div class="content">
+          <h2>Mejora continua · Mantener una AE viva</h2>
+          <p class="goal">Convertir la arquitectura en una capacidad permanente de evolución del negocio.</p>
+          <p class="scope">Gestión de capacidad · Comunicación efectiva · Colaboración inter-áreas · Ciclos de mejora.</p>
+          <p class="result"><strong>Resultado:</strong> decisiones conectadas con estrategia y tecnología, roadmap priorizado y mejoras medibles.</p>
+        </div>
+      </article>
+    </section>
+    <aside class="principles">
+      <h3>La lógica Proagile: consolidar, ampliar y evolucionar</h3>
+      <p>Cada nivel constituye un piso estable sobre el cual construir. La evolución se evidencia en entregables y capacidades verificables. El avance se comunica mediante versiones del Marco Base, por ejemplo, <strong>v1.0 → v1.1</strong>.</p>
+    </aside>
+    <footer>
+      <p><strong>Fuente:</strong> specs/modelo-madurez.md (síntesis institucional 2026). Elaborado: 16/09/2026 · Versión ejecutiva para revisión.</p>
+      <p>EA: Enterprise Architect · MDG: tecnología de personalización de EA · FWK: Marco Base. Síntesis de capacidades; no reemplaza los criterios de aceptación. Umbrales cuantitativos pendientes de contraste con la planilla operativa.</p>
+    </footer>
+  </main>
+</body>
+</html>

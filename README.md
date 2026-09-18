@@ -1,6 +1,6 @@
-# {{PROJECT_NAME}}
+# Asesorar en AE bajo Filosofía Proagile
 
-Proyecto del actor `{{ACTOR}}`, id `{{PROJECT_ID}}`. Repositorio Git
+Proyecto del actor `consultoria`, id `Agente-CU-Asesorar-AE-Filosofia-Proagile`. Repositorio Git
 independiente con instrucciones y skills incluidas localmente.
 
 ## Comenzar con OpenCode
