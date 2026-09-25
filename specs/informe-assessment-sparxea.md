@@ -77,6 +77,8 @@ Cada afirmación material debe remitir a un hallazgo o evidencia.
 - Explicar evidencia y brecha; no calcular un promedio para compensar criterios faltantes.
 - No declarar un nivel alcanzado si no se verificaron todos sus mínimos aplicables.
 
+El informe puede cerrar el servicio sin cerrar el diagnostico de un nivel. Debe identificar los items **no verificados** por falta de tiempo y los **fuera de alcance** por decision del cliente, indicando motivo y limitacion. La exclusion de un item no equivale a cumplimiento ni autoriza a declarar alcanzado el nivel. Esta distincion responde a la decision de la persona del 25/09/2026.
+
 De cara al cliente, priorizar resultados y versiones del marco por sobre puntajes internos, conforme a `ciclos-inter-intra.md`.
 
 ### 7. Hallazgos y oportunidades
@@ -141,6 +143,7 @@ Incluir solo cuando aporten trazabilidad:
 
 - Separar explícitamente hechos comprobados, declaraciones, inferencias y recomendaciones.
 - Indicar alcance y fuente sin divulgar datos personales innecesarios.
+- Se permite incluir nombre y apellido para atribuir citas literales de sesiones de trabajo o reuniones relevantes para el Assessment, tambien en entregables versionados, conforme a `AGENTS.md` y a la metodologia. Esto incluye necesidades, expectativas, problematicas o dolencias vinculadas a SparxEA. Mantener una referencia verificable a la fuente y no atribuir como cita literal una parafrasis o inferencia. La excepcion no habilita otros datos personales.
 - Usar “no verificado” cuando falte evidencia; no convertirlo en incumplimiento.
 - Evitar nombres de otros clientes y ejemplos sectoriales no aprobados.
 - Evitar afirmaciones comerciales, legales o de propiedad intelectual que no hayan sido validadas para la versión vigente.

@@ -141,3 +141,5 @@ completo.
 - No quedan datos personales, secretos, enlaces privados ni referencias a otros
   clientes que no sean necesarias.
 - La revisión independiente no registra hallazgos críticos abiertos.
+
+El cierre del paquete y del servicio no exige haber cerrado el diagnostico de un nivel de madurez. Dentro del maximo de tres semanas del Assessment, puede haber items no verificados por falta de tiempo o fuera de alcance por decision del cliente. Registrar motivo, decision cuando corresponda y efecto sobre las conclusiones en la evaluacion, el informe y el checklist. No marcar como completada una evaluacion no realizada ni declarar un nivel alcanzado sin verificar sus minimos. Decision de la persona registrada el 25/09/2026.

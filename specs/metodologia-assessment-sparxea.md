@@ -128,6 +128,13 @@ Antes de confirmar el plan se solicita:
 
 Una ausencia de evidencia no demuestra incumplimiento: debe registrarse como **no verificado**.
 
+### Atribucion de citas de sesiones
+
+- Se permite incluir nombre y apellido del interlocutor para atribuir una cita literal de una sesion de trabajo o reunion relevante para el Assessment, tambien en entregables versionados. Por ejemplo, una necesidad o expectativa sobre la solucion SparxEA vinculada a una situacion cotidiana, problematica o dolencia especifica.
+- Registrar la sesion, fecha y referencia verificable a la fuente. No presentar una parafrasis, inferencia o asentimiento como cita literal.
+- Las citas provenientes de transcripcion automatica deben cotejarse con la grabacion o validarse con el interlocutor antes de presentarlas como verificadas.
+- La excepcion se limita a nombre y apellido asociados a la cita relevante y su referencia verificable; no habilita otros datos personales, secretos, credenciales ni rutas privadas. Si la atribucion nominal no es necesaria, puede usarse un rol o identificador anonimizado.
+
 ## Cobertura mínima de ML0
 
 | Ítem ML0 | Verificación durante el Assessment |
@@ -145,12 +152,16 @@ Los umbrales de aceptación pertenecen a `modelo-madurez.md`; esta tabla define 
 El Assessment puede cerrarse cuando:
 
 - El alcance ejecutado y sus desviaciones están documentados.
-- Cada ítem ML0 está comprobado, controvertido o marcado como no verificado.
+- Cada ítem ML0 está comprobado, controvertido, marcado como no verificado o fuera de alcance con justificacion.
 - Los hallazgos relevantes tienen fuente y estado de validación.
 - Las conclusiones preliminares fueron retroalimentadas con los referentes.
 - El informe distingue situación actual, brechas y recomendaciones.
 - Los próximos pasos tienen prioridad, dependencia y responsable propuesto.
 
+El cierre del servicio es independiente del cierre del diagnostico de un nivel de madurez. Puede cerrarse el Assessment aunque no se hayan evaluado todos los items de un nivel, por falta de tiempo o porque el cliente no desea evaluar alguno. Registrar cada item pendiente por falta de tiempo como **no verificado**; los items excluidos por decision del cliente se registran como **fuera de alcance**, con la decision y su justificacion. Estas limitaciones deben figurar en el informe y no permiten declarar alcanzado un nivel cuyos minimos no se hayan verificado.
+
 ## Estimación
 
-Los inputs incluyen un ejemplo de ejecución concentrada en dos semanas. Se conserva como referencia, no como duración obligatoria. El cronograma se estima según cantidad de repositorios, áreas, sesiones, acceso técnico y volumen de evidencias; no deben reutilizarse literalmente expresiones ambiguas como “2/3 días” o “2/1 días”.
+La duracion del Assessment es de **maximo tres semanas**, segun decision de la persona registrada el 25/09/2026. El ejemplo de dos semanas se conserva como referencia, no como duracion obligatoria. El cronograma se estima segun cantidad de repositorios, areas, sesiones, acceso tecnico y volumen de evidencias, respetando ese maximo. Si no es posible evaluar todos los items en ese plazo, acordar el alcance y documentar los items no verificados o excluidos; no extender implicitamente el servicio ni simular el cierre de un nivel. No deben reutilizarse literalmente expresiones ambiguas como “2/3 días” o “2/1 días”.
+
+Las precisiones sobre atribucion de citas y cierre del servicio fueron indicadas por la persona el 25/09/2026; su aplicacion conserva los controles de datos del proyecto.
